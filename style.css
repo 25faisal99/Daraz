@@ -123,6 +123,7 @@ body{
 }
 /* middle section */
 .middlepart{
+    position: relative;
     display: flex;
     background-color:  #C2FFFA;
     animation: image 9s linear infinite;
@@ -180,11 +181,13 @@ body{
 .middlepart .catagories .a1{
     position: absolute;
     left: 206px;
+    top: 0px;
     visibility: hidden;
 }
 .middlepart .catagories .a1 .a11{
     position: absolute;
     left: 126px;
+    top: 0px;
     visibility: hidden;
 }
 .middlepart .catagories ul :first-child:hover .a1{
