@@ -190,10 +190,12 @@ body{
     top: 0px;
     visibility: hidden;
 }
-.middlepart .catagories ul :first-child:hover .a1{
+/* for hover a1 */
+.middlepart .catagories ul li:hover .a1{
     visibility: visible;
 }
-.middlepart .catagories .a1 ul:first-child :hover .a11{
+/* for hover a11 */
+.middlepart .catagories .a1 ul :hover .a11{
     visibility: visible;
 }
 .middlepart .imageanimation{
@@ -554,3 +556,4 @@ body{
 .messages:hover{
     cursor: pointer;
 }
+ 
